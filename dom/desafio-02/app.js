@@ -1,14 +1,14 @@
 new Vue({
     el: '#desafio',
     data: {
-        valor: '10'
+        valor: ''
     },
     methods: {
-        exibir(event) {
+        exibirAlerta() {
             alert('EXIBINDO ALERTA')
         },
-        keydown(event) {
-            event.target.value
+        alterarValor(event) {
+            this.valor = event.target.value
         }
     }
 })
