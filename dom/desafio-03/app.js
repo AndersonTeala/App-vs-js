@@ -3,17 +3,16 @@ new Vue({
     data: {
         valor: 0
     },
-    methods: {
+    computed: {
         resultado() {
-            return this.valor == 37 ?
-                'Valor igual' : 'Valor diferente'
+            return this.valor == 37 ? 'Valor Igual' : 'Valor Diferente'
         }
     },
     watch: {
-        valor() {
+        resultado() {
             setTimeout(() => {
                 this.valor = 0
             }, 5000)
         }
     }
-});
+})

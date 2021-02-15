@@ -1,16 +1,16 @@
-new Vue ({
-  el: '#desafio',
-  data: {
-    nome: 'Anderson',
-    idade: 25,
-    imagem: 'https://rollingstone.uol.com.br/media/_versions/themandalorian-reprod-disney_widelg.jpg'
-  },
-  methods: {
-    idadeVezes3() {
-      return this.idade *3
+new Vue({
+    el: '#desafio',
+    data: {
+        nome: 'Ana Silva',
+        idade: 28,
+        imagem: 'http://files.cod3r.com.br/curso-vue/vue.jpg'
     },
-    random() {
-      return Math.random()
-    }
+    methods: {
+        idadeVezes3() {
+            return this.idade * 3
+        },
+        random() {
+            return Math.random()
+        }
     }
 })

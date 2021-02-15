@@ -5,7 +5,7 @@ new Vue({
     },
     methods: {
         exibirAlerta() {
-            alert('EXIBINDO ALERTA')
+            alert('Estou alertando agora!')
         },
         alterarValor(event) {
             this.valor = event.target.value
